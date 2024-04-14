@@ -48,7 +48,7 @@ st.write(" ")
 
 # Load Data #
 # Gender Equality Index 性别平等指数导入
-index_file = pd.ExcelFile('index_file.xlsx')  # Update with the correct file path
+index_file = pd.read_excel('index_file.xlsx')  # Update with the correct file path
 
 # Creating a dictionary to hold dataframes
 dfs = {}
