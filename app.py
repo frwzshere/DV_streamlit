@@ -1,7 +1,7 @@
 import streamlit as st
 import altair as alt
 import pandas as pd
-import openpyxl
+pip install openpyxl
 
 #####################################
 #######   Initial Layout   ##########
